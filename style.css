@@ -151,7 +151,7 @@ h1{
     color: white;
     background-color: #5890f7;
     height: 800px;
-    padding: 80px 0px 0px 80px;
+    padding: 80px 0px 0px 85px;
 }
 
 .projects-movies{
@@ -161,7 +161,7 @@ h1{
     padding: 80px 0px 0px 80px;
 }
 
-#movie-site {
+.projects-individual {
     height: 650px;
     width: 700px;
     margin-top: 30px;
@@ -173,7 +173,7 @@ h1{
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 160px 0px 0px 0px;
+    margin: 160px 150px 160px 150px;
 }
 
 .contact{
@@ -217,7 +217,7 @@ footer {
     color: black;
     font-family: MontserratBold;
     font-size: 110px;
-    margin: 70px 0px 0px 100px;
+    margin: 100px 0px 0px 140px;
 }
 
 .contact-container{
@@ -230,30 +230,33 @@ footer {
 .contact-form{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: 280px 80px 0px 20px;
+    width: 600px;
+    height: 708px;
+    margin: 110px 150px 0px 20px;
+    padding-bottom: 20px;
     border-radius: 10%;
 }
 
 #mountains-image{
-    height: 450px;
+    height: 400px;
     width: 630px;
-    margin: 50px 0px 0px 100px;
-    border-radius: 10px;
+    margin: 50px 0px 150px 150px;
+    border-radius: 8px;
     opacity: 0.4;
 }
 
 textarea{
-    height: 150px;
+    height: 1100px;
 }
 
 #user-name, #user-email, #user-message{
     background-color: #f7f7f7;
+    color: #b7b7b7;
     border: none;
-    padding: 14px 0px 14px 0px;
-    font-family: MaisonNeueLight;
-    padding-left: 8px;
-    font-size: 16px;
+    padding: 18px 0px 18px 16px;
+    font-family: MaisonNeueBook;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 #user-message, #user-email{
@@ -261,11 +264,12 @@ textarea{
 }
 
 #send-btn {
+    color: #fbfbfb;
     background-color: black;
     font-family: MaisonNeueBold;
-    letter-spacing: 0.5;
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 18px;
     text-align: center;
-    padding: 16px 0px 15px 0px;
+    padding: 24px 0px 21px 0px;
     cursor: pointer;
 }
